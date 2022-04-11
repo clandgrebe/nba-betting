@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Ignore all files in the data-raw folder except the 2021-22 season
+# because this season is still active
+data-raw/team-2000-01.feather
+# !data-raw/team-2021-22.feather
